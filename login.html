@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>SITIO DE CAFE</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+
+                <h2 class="nav-text">☕ Coffe</h2>
+            </a>
+
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./galeria.html" class="nav-link">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contactenos.html" class="nav-link">Contactenos</a>
+                </li>
+            </ul>
+
+
+
+            <div class="nav-actions">
+                <a href="./login.html" class="nav-login" title="Iniciar sesión">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="auth-container">
+        <div class="auth-left">
+            <div class="auth-card">
+                <div class="auth-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <h2 class="auth-title">Bienvenido de vuelta</h2>
+
+                <form class="auth-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Contraseña" class="form-control" required>
+                    </div>
+
+                    <div class="auth-options">
+                        <label><input type="checkbox"> Recordarme</label>
+                        <a href="#" class="auth-link">¿Olvidaste la contraseña?</a>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-secondary">Iniciar sesión</button>
+                    </div>
+                </form>
+
+                <div class="social-login">
+                    <p>Continua con</p>
+                    <div class="social-buttons">
+                        <button class="btn-social"><i class="fab fa-google" style="color: #DB4437;"></i> Google</button>
+                        <button class="btn-social"><i class="fab fa-facebook-f" style="color: #4267B2;"></i>
+                            Facebook</button>
+                    </div>
+                </div>
+
+                <div class="auth-footer">
+                    ¿No tienes una cuenta? <a href="registro.html" class="auth-link">Regístrate aquí</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

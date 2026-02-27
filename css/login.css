@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    margin:0;
+    padding:0;
+}
+
+.auth-container {
+    display:            flex;
+    justify-content:   center;
+    align-items:       center;
+    min-height:        100vh;
+    padding-top: 76px;
+    background-color:  var(--gc);
+}
+
+.auth-left {
+    display:            flex;
+    justify-content:   center;
+    align-items:       center;
+    padding:           20px;
+    width:             100%;
+}
+
+
+
+/* 3. TARJETA — más ancha que el login (600px) */
+.auth-card {
+    background-color:  #b58989;
+    padding:           40px;
+    border-radius:     20px;
+    width:             100%;
+    max-width:         600px; 
+    box-shadow:        0 10px 30px rgba(0,0,0,0.2);
+    margin:            auto;
+}
+
+
+
+/* 4. ÍCONO Y TÍTULO (mismo que login) */
+.auth-icon {
+    text-align:    center;
+    font-size:     3rem;
+    color:         var(--vi);
+    margin-bottom: 10px;
+}
+.auth-title {
+    text-align:    center;
+    color:         var(--ne);
+    margin-bottom: 30px;
+    font-size:     1.6rem;
+}
+
+
+
+/* 5. CAMPOS DEL FORMULARIO (mismo que login) */
+.auth-form .form-group {
+    margin-bottom: 20px;
+}
+.auth-form .form-control {
+    width:         100%;
+    padding:       12px 15px;
+    border-radius: 8px;
+    border:        1px solid var(--gr);
+}
+
+
+
+/* 6. OPCIONES + ENLACE (mismo que login) */
+.auth-options {
+    display:          flex;
+    justify-content:  space-between;
+    align-items:      center;
+    margin-bottom:    25px;
+    font-size:        0.9rem;
+}
+.auth-link {
+    color:           var(--na);
+    text-decoration: none;
+    font-weight:      600;
+}
+.auth-footer {
+    text-align:  center;
+    margin-top:  30px;
+    font-size:   0.95rem;
+}
+
+.registro-grid {
+    display:                 grid;
+    grid-template-columns:   1fr 1fr;
+    gap:                     12px;
+    margin-bottom:           20px;
+}
+
+body{
+    background: linear-gradient(180deg,#b73548,#7a1f2c);
+    color:white;
+}
+
+.nav-login{
+    color: white;
+    font-size: 1.4rem;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+.nav-login:hover{
+    color: #3b141c;
+    background-color: #e2750f;
+    border-color: #e2750f;
+}
+
+.navbar{
+    width:100%;
+    height:150px;                 /* más alta */
+    padding:0 60px;              /* más espacio a los lados */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#5b2121;
+}
+
+.nav-actios{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menu{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.nav-menu a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.nav-menu a:hover,
+.active{
+    color:#ffb347;
+}
+
+.menu{
+    padding-top:150px;
+    text-align:center;
+}
+
+.titulo{
+    font-size:32px;
+    margin-bottom:50px;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.btn-secondary{
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(135deg,#8b6b6f,#6f4e52);
+    color:white;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.25s;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn-secondary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.25);
+}
+
+.btn-secondary:active{
+    transform:scale(0.97);
+}
+
+.social-buttons{
+    display:flex;
+    gap:12px;
+    margin-top:12px;
+}
+
+.btn-social{
+    flex:1;
+    padding:10px;
+    border-radius:25px;
+    border:1px solid #e3e3e3;
+    background:white;
+    font-weight:600;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    transition:0.25s;
+}
+
+.btn-social:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+.btn-social:nth-child(1):hover{
+    border-color:#DB4437;
+}
+
+.btn-social:nth-child(2):hover{
+    border-color:#4267B2;
+}
+

@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#5c1414;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.navbar nav{
+    display:flex;
+    gap:40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:white;
+}
+
+.navbar{
+    background:#5c1414;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    color:white;
+}
+
+.nav-login{
+    display:flex;   /* MUY IMPORTANTE */
+    width:60px;
+    height:60px;
+    border:3px solid white;
+    border-radius:50%;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    color:white;
+}
+
+/* SECCION */
+.contact-section{
+    background:#7a3d3d;
+    min-height:100vh;
+    padding:60px 80px;
+}
+
+/* TITULO */
+.contact-title{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.contact-title::after{
+    content:"";
+    display:block;
+    width:150px;
+    height:6px;
+    background:#f4a025;
+    margin:15px auto 50px auto;
+    border-radius:10px;
+}
+
+/* CONTENEDOR FLEX */
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:60px;
+}
+
+/* INFO IZQUIERDA */
+.contact-info{
+    color:white;
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-info i{
+    margin-right:10px;
+}
+
+/* FORMULARIO */
+.contact-form{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border-radius:15px;
+    border:none;
+    background:#d9d9d9;
+    font-size:14px;
+}
+
+.contact-form textarea{
+    height:120px;
+    resize:none;
+}
+
+.contact-form button{
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    background:#4a0f0f;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:#2f0808;
+}

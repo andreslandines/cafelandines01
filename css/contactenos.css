@@ -7,7 +7,7 @@
 
 /* NAVBAR */
 .navbar{
-    background:#5c1414;
+    background:#5c1f1f;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -18,34 +18,43 @@
 .navbar nav{
     display:flex;
     gap:40px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .navbar a{
     text-decoration:none;
     color:white;
+    font-weight:500;
 }
 
-.navbar{
-    background:#5c1414;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 60px;
-    color:white;
+.nav-compras{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.cart-icon{
+    color: white;
+    font-size: 1.4rem;
+    padding: 8px 10px;
+    border-radius: 50%;
+border: 2px solid rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+transition: 0.3s ease;
+text-decoration: none;
 }
 
 .nav-login{
-    display:flex;   /* MUY IMPORTANTE */
-    width:60px;
-    height:60px;
-    border:3px solid white;
-    border-radius:50%;
-    justify-content:center;
-    align-items:center;
-    font-size:30px;
-    color:white;
+    color: white;
+    font-size: 1.4rem;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
 }
 
 /* SECCION */

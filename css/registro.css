@@ -1,0 +1,143 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#b49797;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding: 40px;
+}
+
+/* Flecha volver */
+
+.volver{
+position:absolute;
+top:20px;
+left:20px;
+text-decoration:none;
+color:black;
+font-size:18px;
+display:flex;
+align-items:center;
+gap:5px;
+font-weight:bold;
+}
+
+.volver i{
+font-size:24px;
+}
+
+/* Contenedor */
+
+.container{
+width:900px;
+}
+
+.form-box{
+background:#d9d9d9;
+padding:40px;
+border-radius:15px;
+text-align:center;
+}
+
+/* Icono arriba */
+
+.icono{
+width:70px;
+height:70px;
+border-radius:50%;
+background:#eee;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+margin-bottom:10px;
+}
+
+.icono i{
+font-size:30px;
+}
+
+/* Titulo */
+
+h1{
+margin-bottom:5px;
+}
+
+.form-box p{
+margin-bottom:20px;
+}
+
+/* Grid formulario */
+
+.form-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:15px;
+}
+
+/* Inputs */
+
+.input-box{
+text-align:left;
+}
+
+.input-box label{
+display:block;
+margin-bottom:5px;
+font-size:14px;
+}
+
+.input-box input{
+width:100%;
+padding:10px;
+border-radius:10px;
+border:none;
+background:#eee;
+}
+
+/* Terminos */
+
+.terminos{
+margin-top:20px;
+display:flex;
+align-items:center;
+gap:8px;
+justify-content:center;
+font-size:14px;
+}
+
+.terminos a{
+color:#007bff;
+text-decoration:none;
+}
+
+/* Boton */
+
+.btn{
+margin-top:25px;
+width:350px;
+padding:15px;
+border:none;
+border-radius:10px;
+background:white;
+font-size:22px;
+cursor:pointer;
+}
+
+/* Login link */
+
+.login-link{
+margin-top:15px;
+}
+
+.login-link a{
+color:#007bff;
+text-decoration:none;
+}
